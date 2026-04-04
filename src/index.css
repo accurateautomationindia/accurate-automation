@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gunmetal: #2C3E50;
+  --color-gunmetal-light: #34495E;
+  --color-safety-orange: #F39C12;
+  --color-electric-blue: #3498DB;
+  
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Roboto', 'Inter', sans-serif;
+
+  /* Fluid typography from responsive-design-system skill */
+  --text-fluid-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-fluid-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-fluid-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  --text-fluid-lg: clamp(1.125rem, 1rem + 0.6vw, 1.25rem);
+  --text-fluid-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --text-fluid-2xl: clamp(1.5rem, 1.2rem + 1.5vw, 2rem);
+  --text-fluid-3xl: clamp(1.875rem, 1.4rem + 2.25vw, 2.5rem);
+  --text-fluid-4xl: clamp(2.25rem, 1.5rem + 3.75vw, 3.5rem);
+  --text-fluid-5xl: clamp(3rem, 1.8rem + 6vw, 5rem);
+  
+  /* Container queries for Tailwind v4 */
+  --container-xs: 320px;
+  --container-sm: 384px;
+  --container-md: 448px;
+  --container-lg: 512px;
+  --container-xl: 576px;
+  --container-2xl: 672px;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from { height: 0 }
+    to { height: var(--radix-accordion-content-height) }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height) }
+    to { height: 0 }
+  }
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #2C3E50;
+  }
+  .dark {
+    --background: #111820; /* Very dark blue-gray */
+    --foreground: #f8fafc;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gunmetal font-body relative text-fluid-base antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold tracking-tight;
+  }
+  
+  /* Custom scrollbar for industrial feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2C3E50; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F39C12; 
+  }
+}
+
+@layer utilities {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  .btn-touch {
+    @apply min-h-[44px] min-w-[44px] px-6 py-3 font-semibold transition-colors duration-200 flex items-center justify-center;
+  }
+  .btn-primary {
+    @apply min-h-[44px] min-w-[44px] px-6 py-3 font-semibold transition-colors duration-200 flex items-center justify-center bg-safety-orange text-white hover:bg-orange-500 uppercase tracking-wide;
+  }
+  .btn-secondary {
+    @apply min-h-[44px] min-w-[44px] px-6 py-3 font-semibold transition-colors duration-200 flex items-center justify-center border-2 border-gunmetal text-gunmetal hover:bg-gunmetal hover:text-white uppercase tracking-wide;
+  }
+  
+  /* Parallax utility */
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
