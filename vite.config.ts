@@ -8,5 +8,11 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true,
+    allowedHosts: ['accurate-automation.onrender.com'],
+  },
+  preview: {
+    port: 5173,
+    host: true,
+    allowedHosts: ['accurate-automation.onrender.com'],
   },
 })
