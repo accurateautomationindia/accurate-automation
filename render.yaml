@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: accurate-automation
+    runtime: static
+    buildCommand: npm run build
+    publishPath: dist
+    envVars:
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false
+      - key: VITE_EMAILJS_SERVICE_ID
+        sync: false
+      - key: VITE_EMAILJS_TEMPLATE_ID
+        sync: false
+      - key: VITE_EMAILJS_PUB_KEY
+        sync: false
