@@ -109,7 +109,7 @@ export const IronSteel = () => {
               <div className="mt-8 bg-gunmetal text-white p-8">
                 <h3 className="font-heading text-xl font-bold uppercase mb-4 text-safety-orange">{t('ironSteel.quoteTitle')}</h3>
                 <p className="text-sm text-gray-300 font-medium leading-relaxed mb-6">
-                  Our estimators provide accurate, detailed quotes for complex projects. All quotes are backed by our MSME Registered quality guarantee.
+                  Our estimators provide accurate, detailed quotes for complex projects. All quotes are backed by our professional quality guarantee.
                 </p>
                 <button className="btn-primary w-full text-sm">Contact Engineering Team</button>
               </div>

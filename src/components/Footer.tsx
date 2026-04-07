@@ -19,8 +19,8 @@ export const Footer = () => {
             <div className="bg-gunmetal p-4 rounded-sm border-l-4 border-electric-blue flex items-center space-x-3">
               <ShieldCheck className="text-electric-blue h-8 w-8 shrink-0" />
               <div>
-                <p className="font-bold text-white uppercase text-sm">MSME Registered</p>
-                <p className="text-xs text-gray-400">Quality Guaranteed & Certified</p>
+                <p className="font-bold text-white uppercase text-sm">Quality Guaranteed</p>
+                <p className="text-xs text-gray-400">Professional Engineering & Services</p>
               </div>
             </div>
           </div>

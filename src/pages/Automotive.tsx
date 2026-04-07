@@ -74,7 +74,7 @@ export const Automotive = () => {
               <div className="mt-8 bg-gray-50 p-6 border border-gray-200">
                 <h4 className="font-bold text-gunmetal uppercase mb-2 text-sm flex items-center">
                   <ShieldCheck className="w-4 h-4 mr-2 text-electric-blue" />
-                  {t('automotive.msmeTitle')}
+                  {t('automotive.professionalTitle')}
                 </h4>
                 <p className="text-xs text-gray-500">
                   Our heavy-duty bays are equipped to handle industrial-scale vehicles with precision engineered hoists and plasma fabrication tools.

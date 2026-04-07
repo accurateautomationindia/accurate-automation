@@ -27,9 +27,9 @@ const resources = {
       },
       home: {
         whyTitle: "WHY CHOOSE ACCURATE AUTOMATION?",
-        whyDesc: "As an MSME registered workshop in Kerala, we guarantee uncompromising quality across welding, iron and steel works, and heavy vehicle maintenance. Two specialties. One standard of excellence.",
+        whyDesc: "As a premier workshop in Kerala, we guarantee uncompromising quality across welding, iron and steel works, and heavy vehicle maintenance. Two specialties. One standard of excellence.",
         feat1Title: "Certified Quality",
-        feat1Desc: "MSME registered operations ensuring rigorous adherence to industry standards in every weld and tune.",
+        feat1Desc: "Expert operations ensuring rigorous adherence to industry standards in every weld and tune.",
         feat2Title: "Precision Delivered",
         feat2Desc: "From structural beams to engine blocks, our tolerances are measured in fractions of a millimeter.",
         feat3Title: "Rapid Efficiency",
@@ -118,7 +118,7 @@ const resources = {
         title: "Heavy Vehicle Maintenance",
         subtitle: "Body Maintenance & Welding Workshop",
         coreTitle: "Heavy Vehicle Maintenance & Welding Kerala",
-        msmeTitle: "MSME Certified Welding Workshop Kerala"
+        professionalTitle: "Expert Welding Workshop Kerala"
       },
       ironSteel: {
         title: "Welding, Iron &",
@@ -159,7 +159,7 @@ const resources = {
       },
       home: {
         whyTitle: "എന്തുകൊണ്ട് ആക്യുറേറ്റ് ഓട്ടോമേഷൻ?",
-        whyDesc: "ഒരു MSME രജിസ്റ്റർ ചെയ്ത സ്ഥാപനം എന്ന നിലയിൽ, വെൽഡിങ്ങ്, ഇരുമ്പ് & സ്റ്റീൽ വർക്ക്, ഹെവി വാഹന അറ്റകുറ്റപ്പണികളിൽ മികച്ച സേവനം ഞങ്ങൾ ഉറപ്പുനൽകുന്നു.",
+        whyDesc: "ഒരു പ്രമുഖ സ്ഥാപനം എന്ന നിലയിൽ, വെൽഡിങ്ങ്, ഇരുമ്പ് & സ്റ്റീൽ വർക്ക്, ഹെവി വാഹന അറ്റകുറ്റപ്പണികളിൽ മികച്ച സേവനം ഞങ്ങൾ ഉറപ്പുനൽകുന്നു.",
         feat1Title: "സർട്ടിഫൈഡ് ഗുണനിലവാരം",
         feat1Desc: "ഓരോ നിർമ്മാണത്തിലും വ്യവസായിക നിലവാരം ഉറപ്പുവരുത്തുന്നു.",
         feat2Title: "കൃത്യതയോടുള്ള സേവനം",
@@ -250,7 +250,7 @@ const resources = {
         title: "ഹെവി വാഹനങ്ങൾ",
         subtitle: "ബോഡി അറ്റകുറ്റപ്പണികളും നിർമ്മാണവും",
         coreTitle: "പ്രത്യേകമായ ബോഡി മെയിന്റനൻസ്",
-        msmeTitle: "MSME സാക്ഷ്യപ്പെടുത്തിയ സ്ഥാപനം"
+        professionalTitle: "കൃത്യതയാർന്ന സേവനം"
       },
       ironSteel: {
         title: "ഇരുമ്പ് &",

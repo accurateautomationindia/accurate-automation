@@ -33,19 +33,14 @@ export const About = () => {
           </div>
         </div>
 
-        {/* MSME & Trust Signals */}
+        {/* Trust Signals */}
         <div className="bg-gray-50 p-12 border-t-4 border-gunmetal shadow-xl relative overflow-hidden">
           <div className="absolute -right-12 -top-12 opacity-5">
             <Award className="w-64 h-64 text-gunmetal" />
           </div>
           <h2 className="font-heading text-3xl font-bold text-gunmetal uppercase mb-12 text-center">{t('about.certifiedTitle')}</h2>
           
-          <div className="grid md:grid-cols-3 gap-8 relative z-10">
-            <div className="bg-white p-6 border border-gray-200 text-center shadow-sm">
-              <ShieldCheck className="w-12 h-12 text-safety-orange mx-auto mb-4" />
-              <h3 className="font-bold text-gunmetal uppercase mb-2">MSME Registered</h3>
-              <p className="text-sm text-gray-600">Officially recognized micro, small, and medium enterprise, adhering strictly to national industrial and commercial regulations.</p>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8 relative z-10">
             <div className="bg-white p-6 border border-gray-200 text-center shadow-sm">
               <ShieldCheck className="w-12 h-12 text-electric-blue mx-auto mb-4" />
               <h3 className="font-bold text-gunmetal uppercase mb-2">Quality Guaranteed</h3>
