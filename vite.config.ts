@@ -15,4 +15,7 @@ export default defineConfig({
     host: true,
     allowedHosts: ['accurate-automation.onrender.com'],
   },
+  build: {
+    chunkSizeWarningLimit: 1000,
+  },
 })
